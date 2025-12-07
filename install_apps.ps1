@@ -43,12 +43,16 @@ $packages = @(
     "Cloudflare.Warp",
     "RamenSoftware.Windhawk",
     "Microsoft.PowerToys",
+    "Flow-Launcher.Flow-Launcher",
     "Bitwarden.Bitwarden",
     "DBeaver.DBeaver.Community",
     "Postman.Postman",
     "Stremio.StremioService",
     "Microsoft.VisualStudioCode",
     "Microsoft.VisualStudio.2022.Community",
+    "Anysphere.Cursor",
+    "Google.Antigravity",
+    "Amazon.Kiro",
     "Mozilla.Thunderbird",
     "JDownloader.JDownloader",
     "ExifCleaner.ExifCleaner",
@@ -56,6 +60,7 @@ $packages = @(
     "xanderfrangos.twinkletray",
     "File-New-Project.EarTrumpet",
     "Nvidia.GeForceExperience",
+    "DelugeTeam.Deluge"
     
     # --- Web Browsers ---
     "Brave.Brave",
@@ -85,3 +90,4 @@ foreach ($package in $packages) {
 }
 
 Write-Host "[DONE] Script finished! All specified packages have been processed." -ForegroundColor Green
+
